@@ -16,7 +16,7 @@ Instalar:
     ● echo -e "AIRFLOW_UID=$(id -u)\nAIRFLOW_GID=0" > .env 
     ● docker-compose up airflow-init (esperar el tiempo necesario)
     ● docker-compose up -d  (esperrar el tiempo necesario)
-    ● Localhost:8080 
+    ● http://localhost:8080/ 
 ```
 ### Login :
 ```
